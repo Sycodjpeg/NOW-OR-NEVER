@@ -1,0 +1,13 @@
+{
+  "name": "binance-monitor",
+  "version": "1.0.0",
+  "description": "Monitor Binance creator posts and send Telegram alerts",
+  "main": "monitor.js",
+  "scripts": {
+    "start": "node monitor.js"
+  },
+  "dependencies": {
+    "@aanton/telegram-webpage-monitor-bot": "^1.0.4",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
